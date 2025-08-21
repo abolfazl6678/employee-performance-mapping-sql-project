@@ -5,7 +5,7 @@ SQL project analyzing employee records, salaries, performance ratings, and proje
 
 # ScienceQtech Employee Performance Mapping
 
-## 📖 Overview  
+## Overview  
 This project is part of my **SQL Course-End Capstone Project** where I worked on analyzing and managing employee and project data for a startup, **ScienceQtech**. The goal is to support the **HR department** in mapping employee performance, salaries, and projects by writing optimized SQL queries, creating stored procedures, views, and functions.  
 
 The project also covers database design concepts (ER diagrams), indexing, and query performance improvement — demonstrating strong **SQL, database design, and optimization skills**.  
@@ -75,4 +75,56 @@ Three datasets were provided and imported into a MySQL database:
 ---
 
 ## 🏗️ Project Structure  
+
+```
+employee-performance-mapping/
+├── data/
+│ ├── emp_record_table.csv
+│ ├── proj_table.csv
+│ └── data_science_team.csv
+├── sql_scripts/
+│ ├── create_database.sql
+│ ├── queries.sql
+│ ├── stored_procedures.sql
+│ └── indexing.sql
+├── diagrams/
+│ └── ER_diagram.png
+├── outputs/
+│ ├── query_results.csv
+│ └── performance_report.pdf
+├── README.md
+```
+
+
+---
+
+## ▶️ How to Run  
+
+1. Import the provided `.csv` files into MySQL database `employee`.  
+2. Run `create_database.sql` to set up tables.  
+3. Execute queries from `queries.sql` to generate reports.  
+4. Explore advanced tasks using `stored_procedures.sql` and `indexing.sql`.  
+
+---
+
+## 🚀 Skills Demonstrated  
+
+- SQL Query Writing & Optimization  
+- Database Design & ER Diagrams  
+- Stored Procedures & Functions  
+- Views & Indexing for Performance  
+- Data Aggregation & Reporting  
+- HR & Business Use Case Translation into SQL  
+
+---
+
+## 📌 Note  
+This project was part of my **SQL Training Capstone Project** during the Caltech Data Science Program.  
+
+
+
+
+
+
+
 
