@@ -17,7 +17,7 @@ ScienceQtech is preparing for its annual appraisal cycle and requires insights i
 
 ---
 
-## Tools & Technologies Used  
+## Tools & Techniques Used  
 - **Database:** MySQL  
 - **Concepts Covered:**  
   - Database Creation & Table Design  
