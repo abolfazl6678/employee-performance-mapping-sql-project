@@ -131,7 +131,7 @@ employee-performance-mapping/
 ├── outputs/
 │ ├── query_results.csv
 │ └── performance_report.pdf
-├── README.md
+└── README.md
 ```
 
 ---
