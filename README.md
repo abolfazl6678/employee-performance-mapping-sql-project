@@ -134,7 +134,6 @@ employee-performance-mapping/
 ├── README.md
 ```
 
-
 ---
 
 ## How to Run  ????
@@ -146,7 +145,7 @@ employee-performance-mapping/
 
 ---
 
-## Skills Demonstrated  ????
+## Skills Demonstrated
 
 - SQL Query Writing & Optimization  
 - Database Design & ER Diagrams  
@@ -157,8 +156,8 @@ employee-performance-mapping/
 
 ---
 
-## Note  ???? 
-This project was part of my **SQL Training Capstone Project** during the Caltech Data Science Program.  
+## Note
+This project was part of my **SQL Training Project** during the Caltech Data Science Program.  
 
 
 
