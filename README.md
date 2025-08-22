@@ -158,11 +158,3 @@ employee-performance-mapping/
 
 ## Note
 This project was part of my **SQL Training Project** during the Caltech Data Science Program.  
-
-
-
-
-
-
-
-
