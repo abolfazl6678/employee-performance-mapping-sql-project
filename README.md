@@ -72,7 +72,7 @@ Three datasets were provided and imported into a MySQL database:
 
 ## Porject Tasks Performed
 
-**Database Creation & Data Import:**  
+**Database Creation & Data Import into Tables:**  
 - Created an employee database and imported multiple datasets (data_science_team.csv, proj_table.csv, emp_record_table.csv).
 
 **Database Modeling:**  
@@ -81,7 +81,7 @@ Three datasets were provided and imported into a MySQL database:
 **Data Retrieval & Filtering:**  
 - Queried employee details (e.g., EMP_ID, FIRST_NAME, LAST_NAME, GENDER, DEPARTMENT).
 - Filtered employees based on conditions (e.g., EMP_RATING < 2, > 4, or between 2–4).
-- Concatenated names with aliases for employees in specific departments.
+- Concatenated names with aliases for employees in specific department (Finance).
 
 **Hierarchical Queries:**  
 - Identified employees with direct reports and counted the number of subordinates, including the President.
@@ -92,7 +92,6 @@ Three datasets were provided and imported into a MySQL database:
 **Aggregation & Grouping:**  
 - Grouped employee details by department with employee ratings and max ratings.
 - Calculated min and max salaries per role.
-- Computed average salary distribution by continent and country.
 
 **Ranking & Analytics:**  
 - Assigned ranks to employees based on years of experience.
@@ -110,10 +109,11 @@ Three datasets were provided and imported into a MySQL database:
 
 **Business Logic Implementation:**  
 - Calculated employee bonuses using a formula (5% of salary * employee rating).
+- Average salary distribution based on the continent and country
 
 ---
 
-## Project Structure  ????
+## Project Structure
 
 ```
 employee-performance-mapping/
@@ -122,15 +122,23 @@ employee-performance-mapping/
 │ ├── proj_table.csv
 │ └── data_science_team.csv
 ├── sql_scripts/
-│ ├── database_table_creation.sql
-│ ├── queries.sql
-│ ├── stored_procedures.sql
-│ └── indexing.sql
+│ ├── 1-database_table_creation.sql
+│ ├── 2-queries.sql
+│ ├── 3-indexing.sql
+│ ├── 4-stored_procedures_func.sql
+│ └── 5-business_Logic_Bounces_average_salary.sql
 ├── diagrams/
 │ └── ER_diagram.png
 ├── outputs/
-│ ├── query_results.csv
-│ └── performance_report.pdf
+│ ├── Aggregation_Grouping.xlsx
+│ ├── Bounces_average_salary.xlsx
+│ ├── Data Retrieval & Filtering.xlsx
+│ ├── employee database_tables.xlsx
+│ ├── Hierarchical Queries.xlsx
+│ ├── Performance Optimization - indexing.xlsx
+│ ├── Ranking_Analytics.xlsx
+│ ├── Stored_Procedures_Functions.xlsx
+│ └── Views_Nested_Queries.xlsx
 └── README.md
 ```
 
@@ -141,8 +149,8 @@ employee-performance-mapping/
 2. Run `database_table_creation.sql` to create the database and tables.
 3. Import CSVs in `/data` importing tables pne by one by right click on the table >> Table Data Import Wizard
    and picking related csv table
-5. Run `queries.sql` for analysis queries.
-6. Run `procedures.sql` if you want to add stored procedures.
+5. Run other sql queries from 2 to 5 for analysis queries.
+6. Run `procedures.sql` and `indexing.sql` if you want to add stored procedures or indexing.
 
 ---
 
