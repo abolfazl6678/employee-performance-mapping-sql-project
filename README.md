@@ -122,7 +122,7 @@ employee-performance-mapping/
 │ ├── proj_table.csv
 │ └── data_science_team.csv
 ├── sql_scripts/
-│ ├── create_database.sql
+│ ├── database_table_creation.sql
 │ ├── queries.sql
 │ ├── stored_procedures.sql
 │ └── indexing.sql
@@ -136,12 +136,13 @@ employee-performance-mapping/
 
 ---
 
-## How to Run  ????
-
-1. Import the provided `.csv` files into MySQL database `employee`.  
-2. Run `create_database.sql` to set up tables.  
-3. Execute queries from `queries.sql` to generate reports.  
-4. Explore advanced tasks using `stored_procedures.sql` and `indexing.sql`.  
+## Steps to Run
+1. Open MySQL Workbench.
+2. Run `database_table_creation.sql` to create the database and tables.
+3. Import CSVs in `/data` importing tables pne by one by right click on the table >> Table Data Import Wizard
+   and picking related csv table
+5. Run `queries.sql` for analysis queries.
+6. Run `procedures.sql` if you want to add stored procedures.
 
 ---
 
