@@ -1,5 +1,7 @@
-# employee-performance-mapping-sql-project
+# Employee-performance-mapping-sql-project
 SQL project analyzing employee records, salaries, performance ratings, and projects for HR analytics and appraisal planning.
+
+---
 
 ## Overview  
 This project is part of my **SQL Course-End Project** where I worked on analyzing and managing employee and project data for a startup, **ScienceQtech**. The goal is to support the **HR department** in mapping employee performance, salaries, and projects by writing optimized SQL queries, creating stored procedures, views, and functions.  
@@ -168,3 +170,16 @@ employee-performance-mapping/
 
 ## Note
 This project was part of my **SQL Training Project** during the Caltech Data Science Program.  
+
+---
+
+## Author
+
+**Abolfazl Zolfaghari**  
+Data Science Graduate
+[Email](ab.zolfaghari.abbasghaleh) | [GitHub](https://github.com/abolfazl6678)
+
+---
+
+
+
