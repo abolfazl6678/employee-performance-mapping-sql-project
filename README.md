@@ -31,7 +31,8 @@ ScienceQtech is preparing for its annual appraisal cycle and requires insights i
 ---
 
 ## Dataset Description
-Three datasets were provided and imported into a MySQL database:  
+Three datasets were provided and imported into a MySQL database as below:  
+Description of each varable listed below. 
 
 1. **emp_record_table** – Employee details  
    - EMP_ID ---------------- ID of the employee
