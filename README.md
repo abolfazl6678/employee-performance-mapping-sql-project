@@ -1,4 +1,4 @@
-# Employee-performance-mapping-sql-project
+# Employee-Performance-Mapping-SQL-Project
 SQL project analyzing employee records, salaries, performance ratings, and projects for HR analytics and appraisal planning.
 
 ---
