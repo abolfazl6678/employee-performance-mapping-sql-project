@@ -176,7 +176,6 @@ This project was part of my **SQL Training Project** during the Caltech Data Sci
 ## Author
 
 **Abolfazl Zolfaghari**  
-Data Science Graduate
 [Email](ab.zolfaghari.abbasghaleh) | [GitHub](https://github.com/abolfazl6678)
 
 ---
